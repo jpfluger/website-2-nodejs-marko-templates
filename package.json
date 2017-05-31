@@ -1,0 +1,43 @@
+{
+	"name": "website-2-nodejs-marko-templates",
+	"version": "0.1.0",
+	"publishConfig" : {
+	},
+	"private": true,
+	"description": "A website primer for Node Express using Marko templates and Boostrap.",
+	"author": {
+		"name": "Jaret Pfluger",
+		"email": "japes@aberlorn.com"
+	},
+	"homepage": "https://github.com/jpfluger/website-2-nodejs-marko-templates.git",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/jpfluger/website-2-nodejs-marko-templates.git"
+	},
+	"license": "MIT",
+	"engines": {
+		"node": ">=6.5"
+	},
+	"bin": {},
+	"scripts": {
+	},
+	"main": "src/server",
+	"keywords": [
+		"express",
+		"bootstrap",
+		"website",
+		"marko",
+		"template"
+	],
+	"dependencies": {
+		"express": "^4.15.2",
+		"body-parser": "^1.17.1",
+		"lodash": "^4.17.4",
+		"numeral": "^2.0.6",
+		"moment": "^2.18.1",
+
+		"marko": "^4.4.6"
+	},
+	"devDependencies": {
+	}
+}
